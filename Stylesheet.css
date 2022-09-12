@@ -71,11 +71,16 @@ section.darker{
 }
 
 /* Actual Body*/
-.faqU{
+.faq{
     display: grid;
     padding:1%;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns:1fr;
+}
+@media (min-width: 600px){
+    .faq{
+        grid-template-columns:1fr 1fr;
+    }
 }
 .faqU h2{
     padding: 2%;
