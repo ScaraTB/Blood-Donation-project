@@ -5,6 +5,7 @@ body{
 
 }
 
+/* Nav Bar */
 header{
     background-color: rgb(37,37,37);
     color: white;
@@ -39,7 +40,7 @@ header h1{
 }
 
 
-
+/* The background and tagline is named "space" class */
 main h2{
     font-size: clamp(20px, 7vw, 60px);
 }
@@ -52,7 +53,7 @@ section.darker{
     padding-bottom: 12vw;
     color: rgb(250,100,125);
     text-shadow: 3px 3px 15px pink;
-
+    /* Gives the parallax effect*/
     background-image: url("Home.jpg");
     background-size: cover;
     background-position: center;
@@ -62,6 +63,8 @@ section.darker{
 .space p{
     font-size: clamp(15px, 3vw,25px);
 }
+
+/* Actual Body*/
 .faqU{
     display: grid;
 }
