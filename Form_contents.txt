@@ -1,0 +1,16 @@
+Name- full
+age
+sex
+contact number
+email
+house address
+blood group
+Blood preassure
+height
+weight
+Ailments - if any   (reject if this is filled)
+AIDS-HIV
+allergy
+have you donated before?
+vaccine/asprin/alchohol/steroids
+surgery/blood transfusion
